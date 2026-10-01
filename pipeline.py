@@ -1,7 +1,8 @@
 # Main ETL Pipeline - Core System
 
 def extract():
-    print("Extracting data from Azure Blob Storage [MAIN BRANCH]...")
+    # Resolved conflict: Supporting both Azure and S3 sources
+    print("Extracting data from AWS S3 Bucket & Azure Blob Storage...")
 
 def transform(data):
     print("Transforming raw data...")
